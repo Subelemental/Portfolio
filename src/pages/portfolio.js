@@ -19,49 +19,49 @@ export default function Portfolio() {
               <div className="project-card">
               <h3 className='project-title'>Alraqmiya</h3>
               <a href="https://www.alraqmiya.com/" className='image' target="_blank" rel="noopener noreferrer">
-                <img src='/images/alraq.png' alt='Alraqmiya' />
+                <img src='/images/alraq.jpg' alt='Alraqmiya' />
               </a>
             </div>
             <div className="project-card">
               <h3 className='project-title'>Navi</h3>
               <a href="https://navi.pt/" className='image' target="_blank" rel="noopener noreferrer">
-                <img src='/images/navi.png' alt='Navi' />
+                <img src='/images/navi.jpg' alt='Navi' />
               </a>
             </div>
             <div className="project-card">
               <h3 className='project-title'>Planta-la</h3>
               <a href="https://www.planta-la.com/" className='image' target="_blank" rel="noopener noreferrer">
-                <img src='/images/planta.png' alt='Planta-la' />
+                <img src='/images/planta.jpg' alt='Planta-la' />
               </a>
             </div>
             <div className="project-card">
               <h3 className='project-title'>Solvian</h3>
               <a href="https://www.solvian.pt/" className='image' target="_blank" rel="noopener noreferrer">
-                <img src='/images/solvian.png' alt='Solvian' />
+                <img src='/images/solvian.jpg' alt='Solvian' />
               </a>
             </div>
             <div className="project-card">
               <h3 className='project-title'>Tasco'Tau</h3>
               <a href="https://www.tas-cotau.pt/" className='image' target="_blank" rel="noopener noreferrer">
-                <img src='/images/tasco.png' alt='TascoTau' />
+                <img src='/images/tasco.jpg' alt='TascoTau' />
               </a>
             </div>
             <div className="project-card">
               <h3 className='project-title'>Coach Zach Chu</h3>
               <a href="https://coachzachchu.com/" className='image' target="_blank" rel="noopener noreferrer">
-                <img src='/images/coach.png' alt='Coach Zach Chu' />
+                <img src='/images/coach.jpg' alt='Coach Zach Chu' />
               </a>
             </div>
             <div className="project-card">
               <h3 className='project-title'>NanderFlower Invaders</h3>
               <a href="https://github.com/guilhermeSilva96/AlienInvaders" className='image' target="_blank" rel="noopener noreferrer">
-                <img src='/images/chooseYourPlayer.png' alt='NanderFlower Invaders' />
+                <img src='/images/chooseYourPlayer.jpg' alt='NanderFlower Invaders' />
               </a> 
             </div>
             <div className="project-card">
               <h3 className='project-title'>RitualBeast Tracker</h3>
               <a href="https://subelemental.github.io/rb/" className='image' target="_blank" rel="noopener noreferrer">
-                <img src='/images/RB.png' alt='RitualBeast Tracker' />
+                <img src='/images/RB.jpg' alt='RitualBeast Tracker' />
               </a>
             </div>
           </div>
