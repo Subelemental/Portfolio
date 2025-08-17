@@ -1,0 +1,156 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background: #293241;
+  color: #e0fbfc;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.wrapperProjects {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heroText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ee6c4d;
+    margin: 50px 0 200px;
+    font-size: 36px;
+}
+
+.heroImage{
+    width: 580px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 100% 100% 10% 10%;
+}
+
+.unlockBar {
+  position: relative;
+  height: 150px;
+  width: 100%;
+  background: #e0fbfc;
+  border-radius: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unlockBarOverlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: rgba(41, 50, 65, 0.5);
+  z-index: 1;
+  pointer-events: none;
+  border-radius: 75px 0 0 75px;
+  transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+
+.unlockImage {
+  width: 150px;
+  height: 150px;
+  display: block;
+  border-radius: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+
+.unlockText {
+  font-size: 1.5rem;
+  color: #293241;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  z-index: 1;
+}
+
+.portfolioBackground {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 300px;
+}
+
+.image img{
+    width: 100%;
+    height: 680px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.projectsTitle {
+    font-size: 74px;
+    margin: 0;
+    color: #ee6c4d;
+    text-align: center;
+}
+
+.project-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 150px;
+    gap: 50px
+}
+
+.project-card h3{
+    font-size: 48px;
+    margin: 0;
+    color: #ee6c4d;
+    text-align: center;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+    margin: 150px 0 50px;
+}
+
+.pageTitle{
+    width: 60%;
+    font-weight: 400;
+    font-size: 46px;
+}
+
+.svg {
+    fill: #ee6c4d;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 850px;
+}
+
+.projectsTitleList {
+    font-size: 74px;
+    margin: 0 0 500px;
+    color: #ee6c4d;
+    text-align: center;
+}
+
+.project-title {
+    
+}
