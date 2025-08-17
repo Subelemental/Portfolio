@@ -33,7 +33,7 @@ export default function Home() {
       if (newX > maxX) {
         newX = maxX;
         // Navigate to new route when image reaches the end
-        router.push('/portfolio');
+        router.push('/home');
       }
     }
     setX(newX);
