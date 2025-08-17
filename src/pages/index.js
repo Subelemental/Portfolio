@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { useState, useRef } from 'react';
 import { useRouter } from 'next/router';
 
-export default function Home() {
+export default function index() {
   const [x, setX] = useState(0);
   const [resetting, setResetting] = useState(false);
   const dragging = useRef(false);
@@ -32,7 +32,6 @@ export default function Home() {
       if (newX < 0) newX = 0;
       if (newX > maxX) {
         newX = maxX;
-        // Navigate to new route when image reaches the end
         router.push('/portfolio');
       }
     }
@@ -67,8 +66,7 @@ export default function Home() {
       if (newX < 0) newX = 0;
       if (newX > maxX) {
         newX = maxX;
-        // Navigate to new route when image reaches the end
-        router.push('/home');
+        router.push('/portfolio');
       }
     }
     setX(newX);
